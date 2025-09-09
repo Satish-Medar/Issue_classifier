@@ -1,0 +1,59 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and large files (but keeping final_Image_classify.h5 as it's needed for deployment)
+checkpoints/
+*.ckpt
+*.h5
+!final_Image_classify.h5
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Dataset folders (if any)
+dataset/
+data/
+raw_data/
+processed_data/
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local development settings
+*.local
+local_settings.py
